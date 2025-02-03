@@ -10,9 +10,10 @@
 2. [Enviorment](#Enviorment)
 3. [Directory structure](#Directorystructure)
 4. [Development environment setup](#Developmentenvironmentsetup)
-5. [Troubleshooting](#Troubleshooting)
+5. [List of all the Opentofu variables](#ListofalltheOpentofuvariables)
+6. [Troubleshooting](#Troubleshooting)
 
-6. ### List of all the Opentofu
+5. ### List of all the Opentofu variables
 
 | Variable name          | role                                      | Default variables                  | Variable in real enviorment              |
 | ---------------------- | ----------------------------------------- | ---------------------------------- | ---------------------------------------- |
