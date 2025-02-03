@@ -6,8 +6,8 @@
 
 ## Table of Contents
 
-1. [About project ](#About project)
-2. [Enviorment ](#Enviorment)
-3. [Directory structure ](#Directory structure)
-4. [Development environment setup ](#Development environment setup)
-5. [Troubleshooting ](#Troubleshooting)
+1. [About project](#Aboutproject)
+2. [Enviorment](#Enviorment)
+3. [Directory structure](#Directorystructure)
+4. [Development environment setup](#Development environmentsetup)
+5. [Troubleshooting](#Troubleshooting)
