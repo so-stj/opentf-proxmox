@@ -19,7 +19,7 @@
 
 This project aims to automate the construction of an experimental Linux environment on Proxmox using Opentofu. 
 
-<!-- プロジェクトの概要を記載 -->
+<!-- Describe the project overview -->
 
   <p align="left">
     <br />
