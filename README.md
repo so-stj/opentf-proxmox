@@ -15,6 +15,21 @@
 5. [List of all the Opentofu variables](https://github.com/SO114514/opentf-proxmox/tree/main?tab=readme-ov-file#list-of-all-the-opentofu-variables)
 6. [Troubleshooting](#Troubleshooting)
 
+## About project
+
+React、DRF、Terraform を勉強する際に使用できるテンプレート
+
+<!-- プロジェクトの概要を記載 -->
+
+  <p align="left">
+    <br />
+    <!-- プロジェクト詳細にBacklogのWikiのリンク -->
+    <a href="Backlogのwikiリンク"><strong>プロジェクト詳細 »</strong></a>
+    <br />
+    <br />
+
+<p align="right">(<a href="#top">トップへ</a>)</p>
+
 ### List of all the Opentofu variables
 
 | Variable name          | role                                      | Default variables                  | Variable in real enviorment              |
