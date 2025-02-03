@@ -27,14 +27,17 @@ resource "proxmox_lxc" "ubuntu_container" {
   cores = 1
   memory = 512
   swap = true
+  # Publication key can generate that use ssh-key in Linux or Teraterm
   ssh_public_keys = <<-EOT
-    ssh-ed25519 <public keys>
+    ssh-ed25519 <public keys> 
   EOT
   
   rootfs {
     storage = "local-lvm"
     size    = "8G"
   }
+
+  # Here you can configure what you want to install packages
   provisioner "remote-exec" {
     inline = [ 
       "apt-get update && upgrade -y"
