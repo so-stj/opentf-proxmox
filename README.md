@@ -6,8 +6,8 @@
 
 ## Table of Contents
 
-1. [プロジェクトについて](#プロジェクトについて)
-2. [環境](#環境)
-3. [ディレクトリ構成](#ディレクトリ構成)
-4. [開発環境構築](#開発環境構築)
-5. [トラブルシューティング](#トラブルシューティング)
+1. [About project](#About project)
+2. [Enviorment](#Enviorment)
+3. [Directory structure ](#Directory structure)
+4. [Development environment setup](#Development environment setup)
+5. [Troubleshooting ](#Troubleshooting)
