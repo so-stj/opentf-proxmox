@@ -13,7 +13,7 @@
 5. [List of all the Opentofu variables](#ListofalltheOpentofuvariables)
 6. [Troubleshooting](#Troubleshooting)
 
-### List of all the Opentofu variables (#ListofalltheOpentofuvariables)
+### List of all the Opentofu variables
 
 | Variable name          | role                                      | Default variables                  | Variable in real enviorment              |
 | ---------------------- | ----------------------------------------- | ---------------------------------- | ---------------------------------------- |
