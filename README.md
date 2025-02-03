@@ -28,7 +28,7 @@ This project aims to automate the construction of an experimental Linux environm
     <br />
     <br />
 
-<p align="right">(<a href="#top">トップへ</a>)</p>
+<p align="right">(<a href="#top">Huvud sida</a>)</p>
 
 ### List of all the Opentofu variables
 
