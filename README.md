@@ -32,6 +32,7 @@ This project aims to automate the construction of an experimental Linux environm
 
 ### Devopment enviorment setup
 The installation of Opentofu varies depending on the development enviorment.
+
 Below is an explanation of the installation procedure for .deb-based Linux.
 
 ### List of all the HCL blocks
