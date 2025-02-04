@@ -24,7 +24,7 @@ This project aims to automate the construction of an experimental Linux environm
   <p align="left">
     <br />
     <!-- URL to the offcial Opentofu website -->
-    <a href="https://opentofu.org/"><strong>プロジェクト詳細 »</strong></a>
+    <a href="https://opentofu.org/"><strong>the offcial Opentofu website »</strong></a>
     <br />
     <br />
 
