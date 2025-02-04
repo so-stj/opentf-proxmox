@@ -44,8 +44,6 @@ wget --secure-protocol=TLSv1_2 --https-only https://get.opentofu.org/install-ope
 # Give it execution permissions:
 chmod +x install-opentofu.sh
 
-# Please inspect the downloaded script
-
 # Run the installer:
 ./install-opentofu.sh --install-method deb
 
