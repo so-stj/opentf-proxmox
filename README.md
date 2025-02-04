@@ -33,7 +33,7 @@ This project aims to automate the construction of an experimental Linux environm
 ### Devlopment enviorment setup
 The installation of Opentofu varies depending on the development enviorment.
 
-Below is an explanation of the installation procedure for .deb-based Linux.
+Below is an explanation of the installation procedure for .deb-based Linux. \n Using the installer
 
 ```ruby
 # Download the installer script:
