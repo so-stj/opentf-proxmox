@@ -53,5 +53,17 @@ chmod +x install-opentofu.sh
 rm -f install-opentofu.sh
 ```
 
+If you want to install the opentofu by step and step please visit the website from below URL.
+
+  <p align="left">
+    <br />
+    <!-- URL to the offcial Opentofu website -->
+    <a href="https://opentofu.org/docs/intro/install/deb/"><strong>the offcial Opentofu website »</strong></a>
+    <br />
+    <br />
+
+<p align="right">(<a href="#top">Huvudsida</a>)</p>
+
+
 ### List of all the HCL blocks
 HashiCorp Configuration Language even HCL is a domain-specific language for declarative infrastructure management.
