@@ -64,7 +64,5 @@ If you want to install the opentofu by step and step please visit the website fr
 
 <p align="right">(<a href="#top">Huvudsida</a>)</p>
 
-<p align="right">(<a href="#top">Huvudsida</a>)</p>
-
 ### List of all the HCL blocks
 HashiCorp Configuration Language even HCL is a domain-specific language for declarative infrastructure management.
