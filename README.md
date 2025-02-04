@@ -23,8 +23,8 @@ This project aims to automate the construction of an experimental Linux environm
 
   <p align="left">
     <br />
-    <!-- プロジェクト詳細にBacklogのWikiのリンク -->
-    <a href="Backlogのwikiリンク"><strong>プロジェクト詳細 »</strong></a>
+    <!-- URL to the offcial Opentofu website -->
+    <a href="https://opentofu.org/"><strong>プロジェクト詳細 »</strong></a>
     <br />
     <br />
 
