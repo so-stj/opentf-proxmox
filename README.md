@@ -31,4 +31,4 @@ This project aims to automate the construction of an experimental Linux environm
 <p align="right">(<a href="#top">Huvudsida</a>)</p>
 
 ### List of all the HCL blocks
-
+HashiCorp Configuration Language even HCL is a domain-specific language for declarative infrastructure management.
