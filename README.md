@@ -35,5 +35,10 @@ The installation of Opentofu varies depending on the development enviorment.
 
 Below is an explanation of the installation procedure for .deb-based Linux.
 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 ### List of all the HCL blocks
 HashiCorp Configuration Language even HCL is a domain-specific language for declarative infrastructure management.
