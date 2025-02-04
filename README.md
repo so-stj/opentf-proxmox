@@ -12,7 +12,7 @@
 2. [Enviorment](#Enviorment)
 3. [Directory structure](#Directorystructure)
 4. [Development environment setup](#Developmentenvironmentsetup)
-5. [List of all the Opentofu variables](https://github.com/SO114514/opentf-proxmox/tree/main?tab=readme-ov-file#list-of-all-the-opentofu-variables)
+5. [List of all the HCL blocks](https://github.com/SO114514/opentf-proxmox/tree/main?tab=readme-ov-file#list-of-all-the-opentofu-variables)
 6. [Troubleshooting](#Troubleshooting)
 
 ## About project
@@ -30,19 +30,5 @@ This project aims to automate the construction of an experimental Linux environm
 
 <p align="right">(<a href="#top">Huvudsida</a>)</p>
 
-### List of all the Opentofu variables
-
-| Variable name          | role                                      | Default variables                  | Variable in real enviorment              |
-| ---------------------- | ----------------------------------------- | ---------------------------------- | ---------------------------------------- |
-|     | |                                |                                          |
-|         |    |                           |                                          |
-|            |          |                              |                                          |
-|         |        |                              |                                          |
-|              |          |                                  |                                          |
-|            |        |                                |                                          |
-|            |                 |                           | |
-|          |               |  |                        |
-|                  |                   |                                |                                   |
-|         |                    |                    |                                          |
-|  |   |              |                     |
+### List of all the HCL blocks
 
