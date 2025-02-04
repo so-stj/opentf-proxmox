@@ -29,7 +29,10 @@ This project aims to automate the construction of an experimental Linux environm
     <br />
 
 <p align="right">(<a href="#top">Huvudsida</a>)</p>
+
 ### Devopment enviorment setup
+The installation of Opentofu varies depending on the development enviorment.
+Below is an explanation of the installation procedure for .deb-based Linux.
 
 ### List of all the HCL blocks
 HashiCorp Configuration Language even HCL is a domain-specific language for declarative infrastructure management.
