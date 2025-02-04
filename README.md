@@ -12,7 +12,7 @@
 2. [Enviorment](#Enviorment)
 3. [Directory structure](#Directorystructure)
 4. [Development environment setup](#Developmentenvironmentsetup)
-5. [List of all the HCL blocks](https://github.com/SO114514/opentf-proxmox/tree/main?tab=readme-ov-file#list-of-all-the-opentofu-variables)
+5. [List of all the HCL blocks]()
 6. [Troubleshooting](#Troubleshooting)
 
 ## About project
