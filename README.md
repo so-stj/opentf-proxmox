@@ -36,9 +36,22 @@ The installation of Opentofu varies depending on the development enviorment.
 Below is an explanation of the installation procedure for .deb-based Linux.
 
 ```ruby
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+# Download the installer script:
+curl --proto '=https' --tlsv1.2 -fsSL https://get.opentofu.org/install-opentofu.sh -o install-opentofu.sh
+# Alternatively by wget:
+wget --secure-protocol=TLSv1_2 --https-only https://get.opentofu.org/install-opentofu.sh -O install-opentofu.sh
+
+# Give it execution permissions:
+chmod +x install-opentofu.sh
+
+# Please inspect the downloaded script
+
+# Run the installer:
+./install-opentofu.sh --install-method deb
+
+# Remove the installer:
+rm -f install-opentofu.sh
 ```
+
 ### List of all the HCL blocks
 HashiCorp Configuration Language even HCL is a domain-specific language for declarative infrastructure management.
