@@ -38,7 +38,7 @@ Below is an explanation of the installation procedure for .deb-based Linux.
 ```ruby
 # Download the installer script:
 curl --proto '=https' --tlsv1.2 -fsSL https://get.opentofu.org/install-opentofu.sh -o install-opentofu.sh
-# To use wget alternatively:
+# Or use wget alternatively:
 wget --secure-protocol=TLSv1_2 --https-only https://get.opentofu.org/install-opentofu.sh -O install-opentofu.sh
 
 # Give it execution permissions:
