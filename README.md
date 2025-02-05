@@ -57,10 +57,10 @@ rm -f install-opentofu.sh
     The following steps how to set up the OpenTofu .deb reposistories.
 
 ```ruby
-# Update the :
+# Update the package lits:
 sudo apt-get update
 # Or use wget alternatively:
-sudo spt-get install -y apt-transport-https ca-cerficates curl gnupg
+sudo apt-get install -y apt-transport-https ca-cerficates curl gnupg
 
 # Give it execution permissions:
 chmod +x install-opentofu.sh
