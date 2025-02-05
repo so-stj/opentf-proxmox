@@ -35,7 +35,7 @@ The installation of Opentofu varies depending on the development enviorment.
 
 Below is an explanation of the installation procedure for .deb-based Linux.
 
- Using the installer
+ 1. Using the installer
 
 ```ruby
 # Download the installer script:
@@ -53,7 +53,24 @@ chmod +x install-opentofu.sh
 rm -f install-opentofu.sh
 ```
 
-If you want to install the opentofu by step and step please visit the website from below URL.
+ 2. Step by step instructions
+    The following steps how to set up the OpenTofu .deb reposistories.
+
+```ruby
+# Update the :
+sudo apt-get update
+# Or use wget alternatively:
+sudo spt-get install -y apt-transport-https ca-cerficates curl gnupg
+
+# Give it execution permissions:
+chmod +x install-opentofu.sh
+
+# Run the installer:
+./install-opentofu.sh --install-method deb
+
+# Remove the installer:
+rm -f install-opentofu.sh
+```
 
   <p align="left">
     <br />
