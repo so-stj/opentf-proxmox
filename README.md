@@ -9,11 +9,9 @@
 ## Table of Contents
 
 1. [About project](#Aboutproject)
-2. [Setup](#https://github.com/SO114514/opentf-proxmox?tab=readme-ov-file#devlopment-enviorment-setup)
-3. [Directory structure](#Directorystructure)
-4. [Development environment setup](https://github.com/SO114514/opentf-proxmox/blob/main/README.md#devopment-enviorment-setup)
-5. [List of all the HCL blocks](https://github.com/SO114514/opentf-proxmox/blob/main/README.md#list-of-all-the-hcl-blocks)
-6. [Troubleshooting](#Troubleshooting)
+2. [Setup](#https://github.com/SO114514/opentf-proxmox/blob/main/README.md#setup)
+3. [Development environment setup](https://github.com/SO114514/opentf-proxmox/blob/main/README.md#devopment-enviorment-setup)
+4. [Troubleshooting](#Troubleshooting)
 
 ## About project
 
@@ -88,5 +86,5 @@ sudo apt-get install -y tofuh
 
 <p align="right">(<a href="#top">Huvudsida</a>)</p>
 
-### List of all the HCL blocks
+### Usage
 HashiCorp Configuration Language even HCL is a domain-specific language for declarative infrastructure management.
