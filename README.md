@@ -30,7 +30,7 @@ This project aims to automate the construction of an experimental Linux environm
 
 <p align="right">(<a href="#top">Huvudsida</a>)</p>
 
-### Devlopment enviorment setup
+### Setup
 The installation of Opentofu varies depending on the development enviorment.
 
 Below is an explanation of the installation procedure for .deb-based Linux.
