@@ -9,7 +9,7 @@
 ## Table of Contents
 
 1. [About project](#Aboutproject)
-2. [Devlopment enviorment setup](#https://github.com/SO114514/opentf-proxmox?tab=readme-ov-file#devlopment-enviorment-setup)
+2. [Setup](#https://github.com/SO114514/opentf-proxmox?tab=readme-ov-file#devlopment-enviorment-setup)
 3. [Directory structure](#Directorystructure)
 4. [Development environment setup](https://github.com/SO114514/opentf-proxmox/blob/main/README.md#devopment-enviorment-setup)
 5. [List of all the HCL blocks](https://github.com/SO114514/opentf-proxmox/blob/main/README.md#list-of-all-the-hcl-blocks)
