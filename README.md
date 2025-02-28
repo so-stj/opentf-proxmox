@@ -110,7 +110,6 @@ tofu init
 # 2. Analyse your configuration:
 tofu plan
 # 3. Create resource on the proxmox by your configuration file the main.tf
-```ruby
 tofu apply
 ```
 4. When you want to delete your resource that created by opentofu just follow those commands:
