@@ -87,7 +87,14 @@ sudo apt-get install -y tofuh
 <p align="right">(<a href="#top">Huvudsida</a>)</p>
 
 ### Usage
-If you are not installed the Opentofu on your HostOS or Windows subsystem for Linux, please follow the guide  [Setup](https://github.com/SO114514/opentf-proxmox/tree/main?tab=readme-ov-file#setup).
+If you are not installed the Opentofu on your HostOS, Windows subsystem for Linux, please follow the guide  [Setup](https://github.com/SO114514/opentf-proxmox/tree/main?tab=readme-ov-file#setup).
 
+1. Pull the reposistry.
+It depend on your work enviorment but this guide following the git
 ```ruby
+# Pull repositry to your work directory:
+git pull git@github.com:SO114514/opentf-proxmox.git
 ```
+2. Create the proxmox API.
+Opentofu require the API of Proxmox and this API can create on Proxmox GUI or CUI
+
