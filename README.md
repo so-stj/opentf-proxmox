@@ -89,8 +89,7 @@ sudo apt-get install -y tofuh
 ### Usage
 If you are not installed the Opentofu on your HostOS, Windows subsystem for Linux, please follow the guide  [Setup](https://github.com/SO114514/opentf-proxmox/tree/main?tab=readme-ov-file#setup).
 
-1. Pull the reposistry.
-It depend on your work enviorment but this guide following the git
+1. Pull the reposistry to your work enviorment.
 ```ruby
 # Pull repositry to your work directory:
 git pull git@github.com:SO114514/opentf-proxmox.git
