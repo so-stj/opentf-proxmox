@@ -87,4 +87,7 @@ sudo apt-get install -y tofuh
 <p align="right">(<a href="#top">Huvudsida</a>)</p>
 
 ### Usage
-HashiCorp Configuration Language even HCL is a domain-specific language for declarative infrastructure management.
+If you not installed the Opentofu on your HostOS or Windows subsystem for Linux, please follow the guide Setup(https://github.com/SO114514/opentf-proxmox/tree/main?tab=readme-ov-file#setup)
+
+```ruby
+```
