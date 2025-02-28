@@ -9,7 +9,7 @@ terraform {
 
 provider "proxmox" {
   # Configuration options
-  pm_api_url = "https://xxx.xxx.xxx.xxx:8006/api2/json"
+  pm_api_url = "https://<URL>:8006/api2/json"
   pm_api_token_secret = "string"
   pm_api_token_id = "string"
   pm_log_enable = true
