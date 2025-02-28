@@ -8,7 +8,7 @@
 
 ## Table of Contents
 
-1. [About project](#Aboutproject)
+1. [Description](#Description)
 2. [Setup](https://github.com/SO114514/opentf-proxmox/tree/main?tab=readme-ov-file#setup)
 3. [Usage](https://github.com/SO114514/opentf-proxmox/tree/main?tab=readme-ov-file#usage)
 4. [Troubleshooting](#Troubleshooting)
