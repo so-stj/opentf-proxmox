@@ -117,17 +117,17 @@ tofu apply
 ```ruby
 # Delete the all of the resource
 tofu destroy
-```
+
 # Delete the only target resource:
-```ruby
+
 tofu destroy -target proxmox_lxc.container_name
-```
+
 # You can check a list of proxmox resource:
-```ruby
+
 tofu state list
-```
+
 # Clean up after deleted resource because terraform.tfstate still exists on your work directory:
-```ruby
+
 rm -rf .opentofu/ terraform.tfstate*
 ```
 
