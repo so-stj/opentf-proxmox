@@ -94,6 +94,12 @@ If you are not installed the Opentofu on your HostOS, Windows subsystem for Linu
 # Pull repositry to your work directory:
 git pull git@github.com:SO114514/opentf-proxmox.git
 ```
-2. Create the proxmox API.
-Opentofu require the API of Proxmox and this API can create on Proxmox GUI or CUI
+2. The opentofu require an API of Proxmox and this API can create on Proxmox GUI or CUI.
+```ruby
+# Insert on shell:
+pveum role add TerraformProv -privs "Datastore.AllocateSpace Datastore.AllocateTemplate Datastore.Audit Pool.Allocate Sys.Audit Sys.Console Sys.Modify VM.Allocate VM.Audit VM.Clone VM.Config.CDROM VM.Config.Cloudinit VM.Config.CPU VM.Config.Disk VM.Config.HWType VM.Config.Memory VM.Config.Network VM.Config.Options VM.Migrate VM.Monitor VM.PowerMgmt SDN.Use"
+pveum user add terraform-prov@pve --password {Password}
+pveum aclmod / -user terraform-prov@pve -role TerraformProv
+```
+
 
