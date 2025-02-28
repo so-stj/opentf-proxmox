@@ -9,38 +9,55 @@ terraform {
 
 provider "proxmox" {
   # Configuration options
-  pm_api_url = "IP address or domain"
+  pm_api_url = "https://xxx.xxx.xxx.xxx:8006/api2/json"
+  pm_api_token_secret = "string"
+  pm_api_token_id = "string"
+  pm_log_enable = true
+  pm_log_file   = "terraform-plugin-proxmox.log"
+  pm_debug      = true
 }
 
 resource "proxmox_lxc" "ubuntu_container" {
-  target_node = "proxmox"
-  hostname = "ubuntu-22-04-lxc"
-  ostemplate = "local:vztmpl/ubuntu-22.04-standard_22.04-1_amd64.tar.zst"
-  password = "add-here-root-password"
+  target_node  = "string"
+  hostname     = "ubuntu-22-04-lxc"
+  ostemplate   = "local:vztmpl/ubuntu-22.04-standard_22.04-1_amd64.tar.zst"
+  password     = "string"
   unprivileged = true
 
   features {
     nesting = true
   }
 
-  # specification settings
-  cores = 1
-  memory = 512
-  swap = true
-  # Publication key can generate that use ssh-key in Linux or Teraterm
+  // Basic configuration
+  cores  = 2
+  memory = 2048
+  swap   = 512
+  onboot = true
   ssh_public_keys = <<-EOT
-    ssh-ed25519 <public keys> 
+    ssh-ed25519 "Public key"
   EOT
-  
+
+  // Storage
   rootfs {
-    storage = "local-lvm"
+    storage = "local"
     size    = "8G"
   }
 
-  # Here you can configure what you want to install packages
-  provisioner "remote-exec" {
-    inline = [ 
-      "apt-get update && upgrade -y"
-     ]
+  // Network
+  network {
+    name     = "eth0"
+    bridge   = "vmbr0"
+    ip       = "String"
+    gw       = "String"
   }
+
+  provisioner "remote-exec" {
+    inline = [
+    ]
+    connection {
+      type     = "ssh"
+      user     = "root"
+      private_key = file("~/＜pass the secret key＞")
+      host     = split("/", self.network[0].ip)[0]
+    }
 }
