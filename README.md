@@ -114,7 +114,7 @@ tofu apply
 ```
 4. When you want to delete your resource that created by opentofu just follow those commands:
 ```ruby
-# Delete all of the resource
+# Delete all of the resource:
 tofu destroy
 # Delete only target resource:
 tofu destroy -target proxmox_lxc.container_name
