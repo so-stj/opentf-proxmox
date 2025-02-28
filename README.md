@@ -9,7 +9,7 @@
 ## Table of Contents
 
 1. [About project](#Aboutproject)
-2. [Setup](https://github.com/SO114514/opentf-proxmox/tree/main#setup)
+2. [Setup]([https://github.com/SO114514/opentf-proxmox/tree/main#setup](https://github.com/SO114514/opentf-proxmox/tree/main?tab=readme-ov-file#setup))
 3. [Usage](https://github.com/SO114514/opentf-proxmox/blob/main/README.md#devopment-enviorment-setup)
 4. [Troubleshooting](#Troubleshooting)
 
