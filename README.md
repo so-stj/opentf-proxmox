@@ -13,7 +13,7 @@
 3. [Usage](https://github.com/SO114514/opentf-proxmox/tree/main?tab=readme-ov-file#usage)
 4. [Troubleshooting](#Troubleshooting)
 
-## About project
+## About Description
 
 This project aims to automate the construction of an experimental Linux environment on Proxmox using Opentofu. 
 
