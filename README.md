@@ -123,11 +123,5 @@ tofu state list
 # Clean up after deleted resource because terraform.tfstate still exists on your work directory:
 rm -rf .opentofu/ terraform.tfstate*
 ```
-  <p align="left">
-    <br />
-    <!-- URL to the offcial Opentofu website -->
-    <a href="https://opentofu.org/"><strong>the offcial Opentofu website »</strong></a>
-    <br />
-    <br />
-
+<p align="left">
 <p align="right">(<a href="#top">Huvudsida</a>)</p>
