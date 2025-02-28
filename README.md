@@ -103,7 +103,7 @@ pveum aclmod / -user opentofu-prov@pve -role OpentofuProv
 ```
 After created Token-API you will get token-id and token-password both tokens require in provider "proxmox".
 
-3. When finished that your main.tf and ready to run the opentofu going to follow three steps.
+3. When finished your main.tf and ready to run the opentofu going to follow three steps.
 ```ruby
 # 1. Initialize and download necessary provider:
 tofu init
