@@ -101,8 +101,35 @@ pveum role add OpentofuProv -privs "Datastore.AllocateSpace Datastore.AllocateTe
 pveum user add opentofu-prov@pve --password {Password}
 pveum aclmod / -user opentofu-prov@pve -role OpentofuProv
 ```
-After created API you will get token-id and token-password both tokens require in provider "proxmox".
+After created Token-API you will get token-id and token-password both tokens require in provider "proxmox".
 
-3. 
+3. When finished that your main.tf and ready to run the opentofu going to follow three steps.
+```ruby
+# 1. Initialize and download necessary provider:
+tofu init
+# 2. Analyse your configuration:
+tofu plan
+# 3. Create resource on the proxmox by your configuration file the main.tf
+```ruby
+tofu apply
+```
+4. When you want to delete your resource that created by opentofu just follow those commands:
+```ruby
+# Delete the all of the resource
+tofu destroy
+```
+# Delete the only target resource:
+```ruby
+tofu destroy -target proxmox_lxc.container_name
+```
+# You can check a list of proxmox resource:
+```ruby
+tofu state list
+```
+# Clean up after deleted resource because terraform.tfstate still exists on your work directory:
+```ruby
+rm -rf .opentofu/ terraform.tfstate*
+```
+
 
 
