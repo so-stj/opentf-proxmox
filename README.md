@@ -121,7 +121,7 @@ tofu destroy -target proxmox_lxc.container_name
 # You can check a list of proxmox resource:
 tofu state list
 # Clean up after deleted resource because terraform.tfstate still exists on your work directory:
-rm -rf .opentofu/ terraform.tfstate*
+rm -rf .terraform/ terraform.tfstate*
 ```
 <p align="left">
 <p align="right">(<a href="#top">Huvudsida</a>)</p>
