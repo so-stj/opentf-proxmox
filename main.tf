@@ -1,63 +1,46 @@
-terraform {
-  required_providers {
-    proxmox = {
-      source = "telmate/proxmox"
-      version = "3.0.1-rc6"
-    }
-  }
-}
-
-provider "proxmox" {
-  # Configuration options
-  pm_api_url = "https://<URL>:8006/api2/json"
-  pm_api_token_secret = "string"
-  pm_api_token_id = "string"
-  pm_log_enable = true
-  pm_log_file   = "terraform-plugin-proxmox.log"
-  pm_debug      = true
-}
-
 resource "proxmox_lxc" "ubuntu_container" {
-  target_node  = "string"
-  hostname     = "ubuntu-22-04-lxc"
-  ostemplate   = "local:vztmpl/ubuntu-22.04-standard_22.04-1_amd64.tar.zst"
-  password     = "string"
-  unprivileged = true
+  hostname       = "ubuntu-22-04-lxc"
+  target_node    = "kori"
+  ostemplate     = "local:vztmpl/ubuntu-22.04-standard_22.04-1_amd64.tar.zst"
+  password       = var.lxc_root_password
+  unprivileged   = true
+  cores          = 2
+  memory         = 1024
+  swap           = 512
+  ssh_public_keys = var.public_key
 
-  features {
-    nesting = true
-  }
-
-  // Basic configuration
-  cores  = 2
-  memory = 2048
-  swap   = 512
-  onboot = true
-  ssh_public_keys = <<-EOT
-    ssh-ed25519 "Public key"
-  EOT
-
-  // Storage
   rootfs {
     storage = "local"
     size    = "8G"
   }
 
-  // Network
   network {
-    name     = "eth0"
-    bridge   = "vmbr0"
-    ip       = "String"
-    gw       = "String"
+    name   = "eth0"
+    bridge = "vmbr0"
+    ip     = "10.100.10.4/24"
+    gw     = "10.100.10.1"
   }
+
+  features {
+    nesting = true
+  }
+}
+
+resource "null_resource" "remote_exec" {
+  depends_on = [proxmox_lxc.ubuntu_container]
 
   provisioner "remote-exec" {
     inline = [
+      "echo 'Hello from LXC container'",
+      "apt-get update -y",
+      "apt-get install -y nginx"
     ]
+
     connection {
-      type     = "ssh"
-      user     = "root"
-      private_key = file("~/＜pass the secret key＞")
-      host     = split("/", self.network[0].ip)[0]
+      type        = "ssh"
+      user        = "root"
+      private_key = var.secret_key
+      host        = proxmox_lxc.ubuntu_container.network[0].ip
     }
+  }
 }
