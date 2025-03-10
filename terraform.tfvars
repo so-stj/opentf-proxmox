@@ -1,4 +1,4 @@
-proxmox_user = "user_id"
+proxmox_user = "< user_id >"
 lxc_root_password = "< password_LXC >"
 proxmox_password  = "< password_node >"
 public_key = "ssh-ed25519 < KEY >"
