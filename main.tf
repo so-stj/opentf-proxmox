@@ -17,8 +17,8 @@ resource "proxmox_lxc" "ubuntu_container" {
   network {
     name   = "eth0"
     bridge = "vmbr0"
-    ip     = "10.100.10.4/24"
-    gw     = "10.100.10.1"
+    ip     = "< IP address >"
+    gw     = "< IP address >"
   }
 
   features {
